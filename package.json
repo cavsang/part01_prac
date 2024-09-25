@@ -22,7 +22,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "dev:db": "json-server --watch db.json --port=8888" 
   },
   "browserslist": {
     "production": [
@@ -45,6 +46,7 @@
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-react": "7.33.2",
+    "json-server": "^1.0.0-beta.3",
     "prettier": "3.0.2"
   }
 }
